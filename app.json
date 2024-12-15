@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "HelloWorld",
+    "slug": "react-navigation-template",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "helloworld",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.reactnavigationtemplate",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/splash-icon.png"
+        }
+      ],
+      "react-native-edge-to-edge"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6221b728-cf5d-4f35-a1ea-efb42f6e9ca5"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6221b728-cf5d-4f35-a1ea-efb42f6e9ca5"
+    }
+  }
+}
